@@ -1,0 +1,52 @@
+.stats-table h3{
+	font-size: 20px;
+}
+
+div.stats-table{
+	box-shadow: 1px 1px 1px 1px #dedede;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.stats-table th {
+	font-weight: normal;
+	color:#878787;
+}
+table {
+    border-color: #d3d3d3;
+    font-size: 12px;
+}
+.no-gutter{
+	padding-left: 0;
+	padding-right: 0;
+}
+.stats-header h1{
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+.stats-header h3	{
+	font-size: 16px;
+	margin-top: 0;
+}
+table.matches{
+	width: 100%;
+	border-collapse: collapse;
+}
+table.matches td.l{
+	width: 50%;
+	padding-left: 20px
+}
+table.matches td.r{
+	width: 50%;
+	padding-right: 20px;
+	text-align: right;
+}
+td.l h4, td.r h4{
+	margin-bottom: 0px;
+}
+.note{
+color: rgb(34, 34, 34);
+font-size: 11px;
+font-weight: normal;
+line-height: 15px;
+white-space: nowrap;
+}

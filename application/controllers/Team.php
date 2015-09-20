@@ -1,10 +1,8 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed.');
 
 
-class Standings extends CI_Controller
+class Team extends CI_Controller
 {
-	var $viewdata = null;
-
 
 	function _remap($method, $params = array()){
     	if (method_exists($this, $method))
@@ -20,24 +18,21 @@ class Standings extends CI_Controller
 		parent::__construct();
 	}
 
-	function index($league_id){
+	function index($team_id){
 			$this->load->model('standings_model');
 			$this->load->model('league_model');
 			$this->load->model('match_model');
-			
-			$league = $this->league_model->GetLeague($league_id);
+			$this->load->model('team_model');
 
-			$groups = $this->league_model->GetLeagueGroups($league_id);
-			
-			$todays_matches = $this->match_model->GetTodaysMatches($league_id);
- 			
+			$team = $this->team_model->GetTeam($team_id);
+
+ 			$this->viewdata['team'] = $team;
+
  			$this->load->view('header');
-			
-			$this->viewdata['groups'] = $groups;
 
-			$this->viewdata['matches'] = $todays_matches;
- 			$this->viewdata['league_name'] = $league->name;
- 			$this->load->view('standings_view', $this->viewdata);
+			$this->viewdata['matches'] = null;
+
+ 			$this->load->view('team_view', $this->viewdata);
 
 			$this->load->view('footer');
 	}

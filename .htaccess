@@ -1,3 +1,6 @@
+AddHandler php54 .php
+Action php54 /cgi-bin/php54.cgi
+
 RewriteEngine on
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f

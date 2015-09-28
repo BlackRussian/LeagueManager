@@ -57,8 +57,12 @@ class Team extends CI_Controller
 			//$this->viewdata['genders'] = $this->person_model->GetPersonGender(1);
 			$this->viewdata['league'] = $this->league_model->GetAllLeague();
 			$this->viewdata['page_title'] = "Add a Team";
-			//$this->viewdata['zone'] = $this->league_model->GetLeagueGroups($leagueid);	
+			//$this->viewdata['zone'] = $this->league_model->GetLeagueGroups($leagueid);
+			$this->load->view('header');
+
 			$this->load->view('Team/add', $this->viewdata);
+
+			$this->load->view('footer');
 		//}
 		//else // not logged in - redirect to login controller (login page)
 		//{

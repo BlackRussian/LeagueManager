@@ -1,10 +1,5 @@
-
-<div class="span9" id="content">
 	<div class="row-fluid">
 		<?php //echo $this->load->view('templates/breadcrumb.php');?>
-     	<div class="block">
-       		<div class="block-content collapse in">
-          		<div class="span12">
           			<fieldset>
                   		<?php $this->load->view('shared/display_errors');?>
                   		<legend><?php echo $page_title;?></legend>
@@ -41,11 +36,7 @@
 		                 </div>
                   		
                   	</fieldset>
-          		</div>
-            </div>
-       </div>
-    </div>
-</div>
+
  <script type="text/javascript">  
                   $(document).ready(function() {  
                      $("#selLeague").change(function(){  

@@ -25,3 +25,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+
+ci_sessions/ci_sessionc80a976283c0157c3737fe09e1f40e0dfe87eeeb

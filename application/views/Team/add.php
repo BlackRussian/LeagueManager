@@ -14,7 +14,7 @@
 		                 <div class="control-group">
 			                <label class="control-label" for="selLeague">Select League</label>
 			                <div class="controls">
-			                  <?php echo form_dropdown('selLeague', $league,'','id="selLeague"'); ?>
+			                  <?php echo form_dropdown('selLeague', $league->name,'','id="selLeague"'); ?>
 			                </div>
 			              </div>
 			               <div class="control-group">

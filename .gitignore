@@ -7,7 +7,7 @@ application/cache/*
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
-
+.gitignore
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
@@ -25,3 +25,13 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+.project
+*.prefs
+ci_sessions/ci_session0d00a03902530e88120366895600641075eff56d
+ci_sessions/ci_session06deba6c4b5398d2dc50b9480b0187d36958ec74
+ci_sessions/ci_sessionb41945c3577c253aba0da1fde95468ad1a9072e2
+ci_sessions/ci_sessionb85861ee5af37480910bc106f6779d3e08463f1c
+ci_sessions/ci_sessioneb84d5e756b1cdcf311b063b1837cf70a371ed17
+ci_sessions/ci_session7930e31c8920ce64ebb1b4d7965f327feca99545
+ci_sessions/ci_session8af863fb7136c330d48d452ad6bab1273f7823ff
+ci_sessions/ci_session5b2eee7e6958a2fa59c1ff89158685599b6da2d8

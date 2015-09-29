@@ -25,6 +25,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+
 .project
 *.prefs
 ci_sessions/ci_session0d00a03902530e88120366895600641075eff56d
@@ -35,3 +36,8 @@ ci_sessions/ci_sessioneb84d5e756b1cdcf311b063b1837cf70a371ed17
 ci_sessions/ci_session7930e31c8920ce64ebb1b4d7965f327feca99545
 ci_sessions/ci_session8af863fb7136c330d48d452ad6bab1273f7823ff
 ci_sessions/ci_session5b2eee7e6958a2fa59c1ff89158685599b6da2d8
+=======
+
+ci_sessions/ci_sessionc80a976283c0157c3737fe09e1f40e0dfe87eeeb
+ci_sessions/ci_session1011a97484385723e57c0fd6cb28c9995fb5a79a
+
